@@ -26,7 +26,7 @@ requirements:
     - future
     - numpy
     - pytz
-    - tzlocal
+    - tzlocal <=2.1
 
 test:
   imports:
