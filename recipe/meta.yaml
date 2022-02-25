@@ -1,5 +1,5 @@
 {% set name = "pythonvirgotools" %}
-{% set version = "5.1.3" %}
+{% set version = "5.1.5" %}
 
 package:
    name: "{{ name }}"
@@ -7,7 +7,7 @@ package:
 
 source:
    url: http://software.igwn.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz
-   sha256: 2b4726ea02264a38ae3dd307eda6b49fa80f626ceeec76ebe9b8e0503115e2d7
+   sha256: dbd0c0cbebaee7348a2b466a85b1e3067e767085c5ef898bffd8cd9c96e88ad1
 
 build:
   number: 1
