@@ -1,11 +1,11 @@
-About pythonvirgotools
-======================
+About pythonvirgotools-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pythonvirgotools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.ligo.org/virgo/virgoapp/PythonVirgoTools
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pythonvirgotools-feedstock/blob/master/LICENSE.txt)
 
 Summary: PythonVirgoTools is a collection of Python functions for interacting with the software, hardware and data of the Virgo Interferometer. These functions were mainly written for daily use in the control room, but some of these might also be useful for e.g. DetChar work.
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13241&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonvirgotools-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13241&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pythonvirgotools-feedstock?branchName=main">
       </a>
     </td>
   </tr>
