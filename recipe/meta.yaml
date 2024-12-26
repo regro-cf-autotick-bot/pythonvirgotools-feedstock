@@ -10,17 +10,17 @@ source:
    sha256: eb64bb89de309f25922d1b454f56c728315de335ccd1bcb0763565f89f622ff8
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
     - pip
-    - python >=2.7
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=2.7
+    - python >={{ python_min }}
     - pyfd
     - pycm
     - future
@@ -29,6 +29,8 @@ requirements:
     - tzlocal <=2.1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - virgotools
 
